@@ -8,12 +8,18 @@ Type a job title and see which skills employers ask for most, based on 1.15 mill
 
 **Live demo:** https://linkedin-skills-master-se7dhudlbq-uc.a.run.app
 
+![Searching for "data engineer"](docs/demo.gif)
+
 ## What it does
 
 - Finds postings whose title contains every word of your query as a whole word, in any order: `QA` does not match "aqua", while `C++`, `C#` and `.NET` work as expected.
 - Filters by country (US, UK, Canada, Australia), level (mid-senior, associate) and workplace (onsite, hybrid, remote).
 - Shows the top skills as a chart and a table with the number and share of matched postings that list each skill, plus a breakdown of the matches by country and level.
 - Exports the table to Excel.
+
+| Top skills | Table and breakdown |
+|---|---|
+| ![Top skills chart for "data engineer"](docs/screenshot-search.png) | ![Skills table and breakdown by country and level](docs/screenshot-breakdown.png) |
 
 ## How it works
 
