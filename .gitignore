@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Data is built by scripts/build_dataset.py or downloaded by scripts/fetch_data.sh
+data/
+*.parquet
+*.csv
+
+# Local Streamlit secrets
+.streamlit/secrets.toml
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
