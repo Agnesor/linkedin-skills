@@ -15,3 +15,7 @@ updates:
     directory: /
     schedule:
       interval: monthly
+    ignore:
+      # The Python version is pinned in pyproject.toml; move both together by hand.
+      - dependency-name: python
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
